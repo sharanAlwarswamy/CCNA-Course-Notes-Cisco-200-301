@@ -40,3 +40,20 @@ Starlink Dish (Antenna): You install this outside (it’s called “Dishy”). I
 Starlink Router: Comes with the kit. The dish connects to this router via cable.
 Satellite Connection: The dish talks to satellites in low Earth orbit, which then relay data to ground stations connected to the internet.
 Internet Access: The signal comes back to your router and gives Wi-Fi to your devices.
+
+**Firewall**
+It scanns and block incoming or outgoing traffic.
+
+Inside a firewall there is 
+- IDS Intrusion Detection System 
+- IPS Intrusion Prevention System
+
+Switch delivers POE to an AP
+POE - Power over ethernet
+AP  - Access Point
+
+Installing Cisco Packet Tracer
+Familiarizing the UI
+
+WIC - WAN interface card
+NIM - Network interface module
