@@ -1,0 +1,42 @@
+A network has a physical topology and a logical topology
+
+**Bus Network**
+~~~[ Image bus-topology-two-one]~~~
+
+10 base 5
+10 - 10 Mbps (Mega bits per second)
+bit -> either 0 or 1
+1 byte = 8 bits
+base -> baseband means that only one signal can be sent across the cable at any time, so only one person could talk
+5 -> 500 meters
+2 -> 200 meters
+
+Drop cable (aka. The third wheeler):
+Is a device that would join the 10 base5 pyh cable connection between two devices to join the network
+ 
+By the end of a bus network there will be a device called terminators that will cancel out signals and prevent them from echocing back to the network. esentially saving the network
+
+
+**Star Network**
+~~~[ Image star-topology-two-two]~~~
+Hub in the middle and devices all around it 
+Hub's total number of ports caps the total number of devices that can be in the network
+Traffic received in one port is then flooded out to all of the other ports
+also known as multi-port repeater
+
+Before they send a signal they should sense if any traffic is there in the network, if there is, it should wait for a random amount of time before sensing again
+CSMA - Carrier Sense multiple access collition detection
+
+Uni-Cast (1 device talking to 1 device)
+Broad-Cast (1 device talking to every device)
+Multi-Cast (1 device talking to a group of devices)
+
+Routers will not allow broadcast in them, it wont receive or sent broadcast signals
+
+Starlink 
+Satellites ➜ Dish ➜ Starlink Router ➜ Wi-Fi
+
+Starlink Dish (Antenna): You install this outside (it’s called “Dishy”). It connects directly to the Starlink satellites in space.
+Starlink Router: Comes with the kit. The dish connects to this router via cable.
+Satellite Connection: The dish talks to satellites in low Earth orbit, which then relay data to ground stations connected to the internet.
+Internet Access: The signal comes back to your router and gives Wi-Fi to your devices.

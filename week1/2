@@ -1,0 +1,43 @@
+What is a network?
+A network allows devices to connect and communicate with each other, facilitating the sharing of information, resources, and services.
+
+Client Server Model
+For the Machine to be a server it should have a software in the server that serves information or data.
+To access a server we need the ip_addr of the server and the PORT that the service is running on
+to access it -> ip_addr:PORT
+localhost -> 127.0.0.1
+127.0.0.1:8080
+
+Http  : 80
+Https : 443
+
+DHCP:
+It is a protocol that will assign IP to a device in the network.
+
+DNS:
+Name -> IP
+
+MAC Address: physical addresss burnt into the nic of the device.
+
+NIC: Network Interface Card
+It is an adapter on the machine that allows it to communicate with the network
+Older Nics:
+3com Network interface card
+
+
+Cable
+RJ45 UTP Cable - (Rejistered Jack Untrusted pair cabling)
+10 base2 or thin-net
+10 base5 or thick-net
+Modern option 10 baseT
+
+SFP - Small form-factor pluggable
+
+To connect a fiber cable to the device a SFP should be used on the NIC for the device
+or Wifi approach is to use a Wifi adapter (thing with antennas)
+
+MAC - Media Access Control
+When the manufacturer creates the network interface card, they write the Mac address to the NIC
+Writtern in hexa decimal (48 bit number)
+
+So nic basically give us access to a network using copper fiber or Wifi
